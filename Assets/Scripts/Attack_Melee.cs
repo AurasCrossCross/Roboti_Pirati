@@ -14,6 +14,7 @@ public class Attack_Melee : MonoBehaviour
     public Animator animator;
     private void Update()
     {
+        Debug.Log("It works");
         if(timp_intre_atacuri<=0)
         {
             if (Input.GetKey(KeyCode.Space))
